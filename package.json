@@ -1,0 +1,26 @@
+{
+  "name": "pollen-distribution-fetcher",
+  "version": "1.0.0",
+  "description": "A script to generate a csv file with the last pollen distributions",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "1Hive",
+    "pollen",
+    "SourceCred"
+  ],
+  "author": "1Hive",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@types/node": "^15.12.4",
+    "node-fetch": "^2.6.1",
+    "sourcecred": "^0.9.0"
+  }
+}
