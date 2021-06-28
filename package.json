@@ -1,10 +1,12 @@
 {
-  "name": "pollen-distribution-fetcher",
+  "name": "pollen-transfer-grain",
   "version": "1.0.0",
-  "description": "A script to generate a csv file with the last pollen distributions",
+  "description": "A script to automate the grain transfer process",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/index.js",
+    "dev": "ts-node-dev --watch --respawn --transpile-only ./src/index.ts"
   },
   "keywords": [
     "1Hive",
@@ -20,6 +22,7 @@
   },
   "dependencies": {
     "@types/node": "^15.12.4",
+    "dotenv": "^10.0.0",
     "node-fetch": "^2.6.1",
     "sourcecred": "^0.9.0"
   }
