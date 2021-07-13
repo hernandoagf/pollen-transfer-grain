@@ -1,4 +1,4 @@
-# pollen-cred-fetcher
+# pollen-transfer-grain
 
 A script to automate the grain transfer process. It reads the `withdrawals.csv` file and transfers grain from those users identities to the burned-grain identity.
 
